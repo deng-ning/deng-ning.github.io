@@ -8,7 +8,7 @@
     </title>
 
     <!-- styles -->
-    <link rel="stylesheet" href="styles/colorFlipper.css" />
+    <link rel="stylesheet" href="styles/weather.css" />
   </head>
   <body>
     <nav>
@@ -24,12 +24,21 @@
     </nav>
     <main>
       <div class="container">
-        <h2>background color:<br>
-          <span class="color">#f1f5f8</span></h2>
-        <button class="btn-hero" id="btn">click me</button>
+        <h2>
+          <span id="whose">My</span> City:<br>
+          <span id="currentCity">Tucson, Arizona</span>
+        </h2>
+        <label for="newCity">Your City:</label>
+        <input type="text" id="newCity" value="Tucson, Arizona"><br><br>
+        <button class='btn' id='btn-hero'>Get the Weather</button>
+        <ul>
+          <li><span id='weather'> </span></li>
+          <li><span id='temperature'> </span></li>
+          <li><span id='time'> </span></li>
+        </ul>
       </div>
     </main>
     <!-- javascript -->
-    <script src="scripts/colorFlipper.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>
