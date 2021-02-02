@@ -202,12 +202,12 @@ main {
 .container {
   text-align: center;
 }
-.container h2 {
+.container h4 {
   background: var(--clr-black);
   color: var(--clr-white);
   padding: 1rem;
   border-radius: var(--radius);
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 .color {
   color: var(--clr-primary-5);
@@ -226,7 +226,7 @@ main {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
   font-size: 1rem;
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
 }
 .btn-hero:hover {
   color: var(--clr-white);
