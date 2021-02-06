@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/reviews.css" />
+    <!-- Link to Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/731d5873bc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <div class='nav-center'>
+        <a href="index.html"><h4>Ning Deng's Portfolio</h4></a>
+        <ul class='nav-links'>
+          <li><a href="https://ningdeng.netlify.app/todolist" target="_blank">To-Do-List</a></li>
+          <li><a href="weather.html">Weather</a></li>
+          <li><a href="counter.html">Counter</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>Our Reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="./images/person-1.jpeg" id="person-img" alt="reviwer"/>
+          </div>
+          <h4 id="author">Sara Jones</h4>
+          <p id="job">UX Designer</p>
+          <p id="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, placeat facilis non debitis dolor id harum nobis error impedit nam.
+          </p>
+          <!-- prev next buttons-->
+          <div class="button-container">
+            <button class="btn prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button><br>
+            <button class="btn random-btn">Random One</button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="./scripts/reviews.js"></script>
+  </body>
+</html>
