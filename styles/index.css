@@ -199,3 +199,7 @@ main {
   display: grid;
   place-items: center;
 }
+
+.pages{
+  text-align: center;
+}
