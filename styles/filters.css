@@ -1,0 +1,26 @@
+body {
+    margin: 3% 5%;
+    text-align: center;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #465;
+}
+
+h2{
+    color: #645;
+}
+
+h3 {
+    color: #933;;
+}
+
+canvas {
+    border: 1px solid #aaaaaa;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: 0px 10px 5px 10px;
+}
